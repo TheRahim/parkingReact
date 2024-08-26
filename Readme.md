@@ -16,7 +16,7 @@ Parking garage simulator
 Run the Api's from the apis folder
 Run the Front from the front folder
 
-#Command to run the proyect
+##Command to run the proyect
 ```
  yarn dev
 ```
