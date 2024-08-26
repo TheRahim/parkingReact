@@ -1,22 +1,22 @@
-# Parking homework
+# Parking proyect
 
 Parking garage simulator
 
 ## System requirements to run
-- Docker
-- Docker file system access to current folder in order to mount the db volume. This can be disabled by commenting out the volume mount in `compose.yaml` to keep the data within the container.
-- Port 9000 available. This can also be changed in `compose.yaml`
+- React
+- Port 3000 available for the Apis
+- Port 5173 avaible for the frontEnd
 
 ## System requirements to dev
-- Docker or a MongoDB instance
+- MongoDB instance
 - Node (v20)
 - yarn
 
 ## Running
+Run the Api's from the apis folder
+Run the Front from the front folder
 
-Run the stack from the root folder:
+#Command to run the proyect
 ```
-docker-compose up
+ yarn dev
 ```
-
-When all containers are running, point your browser to (http://localhost:9000)
