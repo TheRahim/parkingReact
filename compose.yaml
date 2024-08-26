@@ -1,0 +1,23 @@
+services:
+  mongo:
+    image: "mongo:5.0.26-focal"
+    volumes:
+      - ./db-data:/data/db
+    ports:
+      - "27017:27017"
+  api:
+    build:
+      context: ./api
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/parking
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        - VITE_API_URL=/api
+    ports:
+      - "9000:80"
+    depends_on:
+      - api

@@ -1,0 +1,21 @@
+ 
+  .header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .header h1{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .management-button {
+    background-color: #ca6b13;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+  .management-button:hover {
+    background-color: #b15e11;
+  }
+  

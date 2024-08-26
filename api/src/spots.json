@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "licensePlate": " ",
+      "isEmpty": true,
+      "entryTime": { "$date": "1970-01-01T08:00:00Z" },
+      "exitTime": null  
+    },
+    {
+      "id": 2,
+      "licensePlate": " ",
+      "isEmpty": true,
+      "entryTime": { "$date": "1970-01-01T09:00:00Z" },
+      "exitTime": null
+    },
+    {
+      "id": 3,
+      "licensePlate": " ",
+      "isEmpty": true,
+      "entryTime": { "$date": "1970-01-01T10:00:00Z" },
+      "exitTime": null
+    },
+    {
+      "id": 4,
+      "licensePlate": " ",
+      "isEmpty": true,
+      "entryTime": { "$date": "1970-01-01T11:00:00Z" },
+      "exitTime": null
+    },
+    {
+      "id": 5,
+      "licensePlate": " ",
+      "isEmpty": true,
+      "entryTime": { "$date": "1970-01-01T12:00:00Z" },
+      "exitTime": null
+    }
+  ]

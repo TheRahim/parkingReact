@@ -1,0 +1,80 @@
+.gate-button {
+    background-color: #ca6b13;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.gate-button:hover {
+    background-color: #b15e11;
+}
+  
+.header{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .squares-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.spots-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    gap: 10px;
+}
+
+.spot {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(184, 42, 42);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold; 
+}
+.spotnumber{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog-content {
+    width: 250px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dialog-content button {
+    margin-top: 10px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(196, 35, 35);
+  }
+  .footer-dialog{
+    display: flex;
+    gap: 20px;
+  }

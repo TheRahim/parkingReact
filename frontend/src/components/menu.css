@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  
+  button{
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  .input-container-error{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  .isFullError-message{    
+    color: red;
+    font-size: 3rem;
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+  .input-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: left;
+    gap: 5px;
+  }
+  
+  .input-container button {
+    background-color: #3FA34D;
+    margin-top: 10px;
+  }
+  .input-container button:hover {
+    background-color: #296e33;
+  }
+  
+  
+  .label-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  
+  input {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: auto;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 2px;
+    margin-bottom: 1px;
+  }
+  
+  
+  .parking-image {
+    width: 300px; 
+    height: auto;
+  }
+
+
+  .parking-fee-card {
+    background-color: #fff3b0;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .parking-fee-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .parking-fee-card p {
+    margin: 10px 0;
+  }
+  
+  .parking-fee-card strong {
+    display: block;
+    font-weight: bold;
+  }
